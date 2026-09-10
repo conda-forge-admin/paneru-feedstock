@@ -1,5 +1,5 @@
 context:
-  version: "0.4.4"
+  version: "0.5.0"
 
 package:
   name: paneru
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/karinushka/paneru/archive/v${{ version }}.tar.gz
-  sha256: e087a421a41f50959446f856fa2e70fb3b57942a78c425d83f78d9759a295694
+  sha256: 1ad4628505d110e2656bd454fbf6566522ca19e1a8dec3196450b15788c248dd
 
 build:
-  number: 1
+  number: 0
   skip:
     - win
     - linux
